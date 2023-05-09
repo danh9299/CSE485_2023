@@ -1,0 +1,12 @@
+Quy ước cách đặt tên file của nhóm (bắt buộc chung)
+CSE485-2023-[tên file]
+
+ví dụ: 
+CSE485-2023-home.php
+
+Quy ước cách đặt tên nhánh (mỗi thành viên làm việc trên nhánh riêng)
+
+CSE-485-2023-[tên thành viên]
+
+ví dụ:
+CSE-485-2023-NguyenDuyAnh
