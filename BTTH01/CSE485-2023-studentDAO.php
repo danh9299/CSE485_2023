@@ -1,7 +1,7 @@
 <?php
 class studentDAO extends Student{
     private $students = array();
-
+    
     public function create($student) {
         array_push($this->students, $student);
       }
@@ -38,36 +38,9 @@ class studentDAO extends Student{
           }
         }
       }
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
+      public function getAll() {
+        // Trả về tất cả sinh viên trong mảng $students
+        return $this->students;
+      }
 }
 ?>
